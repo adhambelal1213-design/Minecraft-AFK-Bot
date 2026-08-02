@@ -7,8 +7,8 @@ const bot = mineflayer.createBot({
   username: config.botUsername,
   auth: 'offline',
   version: false,
-  viewDistance: config.botChunk
-});
+  viewDistance: config.botChunk 1
+  });
 
 let movementPhase = 0;
 const STEP_INTERVAL = 1500;
